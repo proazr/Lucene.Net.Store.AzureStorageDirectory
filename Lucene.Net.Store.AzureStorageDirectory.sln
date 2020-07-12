@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lucene.Net.Store.AzureStorageDirectory", "Lucene.Net.Store.AzureStorageDirectory\Lucene.Net.Store.AzureStorageDirectory.csproj", "{A43FFD30-2073-4B03-90AD-BF40BC7FEF86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{8286F913-764C-4C68-B1D4-688DA450F1CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A43FFD30-2073-4B03-90AD-BF40BC7FEF86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43FFD30-2073-4B03-90AD-BF40BC7FEF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43FFD30-2073-4B03-90AD-BF40BC7FEF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43FFD30-2073-4B03-90AD-BF40BC7FEF86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8286F913-764C-4C68-B1D4-688DA450F1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8286F913-764C-4C68-B1D4-688DA450F1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8286F913-764C-4C68-B1D4-688DA450F1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8286F913-764C-4C68-B1D4-688DA450F1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06B0A949-7C29-4E96-967B-D0DAA6AB7504}
+	EndGlobalSection
+EndGlobal

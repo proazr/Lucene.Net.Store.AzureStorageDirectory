@@ -1,0 +1,1250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" GraphDirection="TopToBottom" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@14 @17 @18 Member=(Name=ReThrowUnchecked OverloadingParameters=[(@19 @22 Type=Exception)]))" Category="CodeSchema_Method" Bounds="1524.38,691.77,140.55,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="ReThrowUnchecked" Icon="CodeSchema_Method" Label="ReThrowUnchecked">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="(@14 @38 Type=Lock Member=(Name=Obtain OverloadingParameters=[@63]))" Category="CodeSchema_Method" Bounds="119.67,634.1225,71.9699999999998,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Obtain" Icon="CodeSchema_Method" Label="Obtain">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="(@32 @33 @34 Member=(@65 OverloadingParameters=[(@32 @33 @75),@76]))" Category="CodeSchema_Method" Bounds="1313.775,1167.2225,173.76,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="AzureStorageIndexOutput" Icon="CodeSchema_Method" Label="AzureStorageIndexOutput" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageIndexOutput.cs StartLineNumber=40 StartCharacterOffset=0 EndLineNumber=40 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@32 @33 @45 Member=(Name=ReadBytes OverloadingParameters=[(@19 @22 Type=(Name=Byte ArrayRank=1 ParentType=Byte)),@58,@58]))" Category="CodeSchema_Method" Bounds="514.455,922.36,90.4000000000001,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ReadBytes" Icon="CodeSchema_Method" IsOverloaded="True" Label="ReadBytes" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageIndexInput.cs StartLineNumber=54 StartCharacterOffset=0 EndLineNumber=54 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@32 @33 Type=AzureStorageLockFactory Member=(Name=MakeLock OverloadingParameters=[@76]))" Category="CodeSchema_Method" Bounds="0,691.77,89.3099999999999,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="MakeLock" Icon="CodeSchema_Method" IsOverloaded="True" Label="MakeLock" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageLockFactory.cs StartLineNumber=32 StartCharacterOffset=0 EndLineNumber=32 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw @4 @6 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="220.178333333333,1340.165,68.9533333333334,25.96" Label="Throw">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="(Name=System.Threading.ManualResetEventSlim.Wait @4 @158 OverloadingParameters=[(@166 Name=millisecondsTimeout),(Type=System.Threading.CancellationToken Name=cancellationToken)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2958.745,1873.265,59.8199999999997,25.96" Label="Wait">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@10" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="745.449999999999,115.295,118.41,25.96" Label="CommitInternal">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@100" Category="CodeSchema_Method" Bounds="1346.58333333333,1095.3025,108.143333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="CreateOutput" Icon="CodeSchema_Method" IsOverloaded="True" Label="CreateOutput" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageDirectory.cs StartLineNumber=80 StartCharacterOffset=0 EndLineNumber=80 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@101" Category="CodeSchema_Method" Bounds="635.583333333333,864.7125,108.143333333333,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="CreateOutput" Icon="CodeSchema_Method" IsOverloaded="True" Label="CreateOutput">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@102" Category="CodeSchema_Method" Bounds="2099.58333333333,1037.655,108.143333333333,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="CreateOutput" Icon="CodeSchema_Method" IsOverloaded="True" Label="CreateOutput">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@103" Category="CodeSchema_Method" Bounds="211.013333333333,807.065,147.283333333333,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="OpenChecksumInput" Icon="CodeSchema_Method" Label="OpenChecksumInput">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@104" Category="CodeSchema_Method" Bounds="238.125,864.7125,93.0599999999999,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="OpenInput" Icon="CodeSchema_Method" IsOverloaded="True" Label="OpenInput" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageDirectory.cs StartLineNumber=124 StartCharacterOffset=0 EndLineNumber=124 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@107" Category="CodeSchema_Method" Bounds="2045.935,461.179999999999,63.4400000000005,25.96" CodeSchemaProperty_IsExternal="True" CommonLabel="Flush" Icon="CodeSchema_Method" IsOverloaded="True" Label="Flush">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@108" Category="CodeSchema_Method" Bounds="2045.935,518.827499999999,63.4400000000005,25.96" CodeSchemaProperty_IsExternal="True" CommonLabel="Flush" Icon="CodeSchema_Method" IsOverloaded="True" Label="Flush">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@109" Category="CodeSchema_Method" Bounds="1982.935,576.475,63.4400000000001,25.96" CodeSchemaProperty_IsExternal="True" CommonLabel="Flush" Icon="CodeSchema_Method" IsOverloaded="True" Label="Flush">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@11" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="914.428333333333,172.9425,108.453333333333,25.96" Label="FinishCommit">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@110" Category="CodeSchema_Method" Bounds="2266.935,576.474999999999,63.4400000000005,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Flush" Icon="CodeSchema_Method" IsOverloaded="True" Label="Flush">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@111" Category="CodeSchema_Method" Bounds="2434.95666666667,980.0075,163.396666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Lucene41PostingsWriter" Icon="CodeSchema_Method" Label="Lucene41PostingsWriter">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@112" Category="CodeSchema_Method" Bounds="172.735,922.36,163.84,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="AzureStorageIndexInput" Icon="CodeSchema_Method" Label="AzureStorageIndexInput" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageIndexInput.cs StartLineNumber=24 StartCharacterOffset=0 EndLineNumber=24 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@113" Category="CodeSchema_Method" Bounds="572.625,288.2375,130.06,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="UpdateDocument" Icon="CodeSchema_Method" Label="UpdateDocument">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@114" Category="CodeSchema_Method" Bounds="2665.25166666667,1167.2225,68.8066666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="Resize" Icon="CodeSchema_Method" Label="Resize">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@115" Category="CodeSchema_Method" Bounds="2652.11833333333,1037.655,95.0733333333337,25.96" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="FlushBuffer" Icon="CodeSchema_Method" Label="FlushBuffer" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageIndexOutput.cs StartLineNumber=187 StartCharacterOffset=0 EndLineNumber=187 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@116" Category="CodeSchema_Method" Bounds="1638.27666666667,980.0075,92.7566666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="WriteBytes" Icon="CodeSchema_Method" IsOverloaded="True" Label="WriteBytes" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageIndexOutput.cs StartLineNumber=76 StartCharacterOffset=0 EndLineNumber=76 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@117" Category="CodeSchema_Method" Bounds="1192.12833333333,807.065,103.053333333333,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="WriteHeader" Icon="CodeSchema_Method" Label="WriteHeader">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@118" Category="CodeSchema_Method" Bounds="1309.19666666667,691.77,98.9166666666663,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="FieldsWriter" Icon="CodeSchema_Method" IsOverloaded="True" Label="FieldsWriter">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@119" Category="CodeSchema_Method" Bounds="234.903333333333,57.6474999999996,155.503333333333,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="AzureStorageDirectory" Icon="CodeSchema_Method" Label="AzureStorageDirectory" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageDirectory.cs StartLineNumber=17 StartCharacterOffset=0 EndLineNumber=17 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@12" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="725.059999999999,172.9425,159.19,25.96" Label="PrepareCommitInternal">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@120" Category="CodeSchema_Method" Bounds="572.625,403.532499999999,130.06,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="UpdateDocument" Icon="CodeSchema_Method" Label="UpdateDocument">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@121" Category="CodeSchema_Method" Bounds="234.489999999999,403.532499999999,70.3299999999999,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="Create" Icon="CodeSchema_Method" Label="Create">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@122" Category="CodeSchema_Method" Bounds="339.646666666667,1037.655,90.0166666666669,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="Download" Icon="CodeSchema_Method" Label="Download">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@123" Category="CodeSchema_Method" Bounds="1652.41166666667,807.065,88.4866666666667,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Compress" Icon="CodeSchema_Method" IsOverloaded="True" Label="Compress">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@124" Category="CodeSchema_Method" Bounds="2254.60666666667,980.0075,150.096666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="BlockTreeTermsWriter" Icon="CodeSchema_Method" Label="BlockTreeTermsWriter">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@125" Category="CodeSchema_Method" Bounds="2381.33833333333,807.065,64.6333333333332,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Write" Icon="CodeSchema_Method" IsOverloaded="True" Label="Write">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@126" Category="CodeSchema_Method" Bounds="527.995,807.065,63.3199999999997,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="Copy" Icon="CodeSchema_Method" Label="Copy">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@127" Category="CodeSchema_Method" Bounds="555.995,749.4175,63.3199999999997,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Copy" Icon="CodeSchema_Method" IsOverloaded="True" Label="Copy">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@128" Category="CodeSchema_Method" Bounds="2667.33833333333,864.7125,64.6333333333332,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Write" Icon="CodeSchema_Method" IsOverloaded="True" Label="Write">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@129" Category="CodeSchema_Method" Bounds="1257.27166666667,749.4175,202.766666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="CompressingStoredFieldsWriter" Icon="CodeSchema_Method" Label="CompressingStoredFieldsWriter">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@13" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="805.934999999999,864.7125,63.4400000000001,25.96" Label="Flush">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@130" Category="CodeSchema_Method" Bounds="189.836666666666,1095.3025,129.636666666667,25.96" CodeSchemaProperty_IsExtension="True" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="EnsureCompleted" Icon="CodeSchema_Method" Label="EnsureCompleted">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@131" Category="CodeSchema_Method" Bounds="452.601666666666,57.6475,78.1066666666666,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Commit" Icon="CodeSchema_Method" Label="Commit">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@133" Category="CodeSchema_Method" Bounds="1866.72166666667,864.7125,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Dispose" Icon="CodeSchema_Method" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@134" Category="CodeSchema_Method" Bounds="2114.72166666667,980.0075,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Dispose" Icon="CodeSchema_Method" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@135" Category="CodeSchema_Method" Bounds="2539.72166666667,807.065,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Dispose" Icon="CodeSchema_Method" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@136" Category="CodeSchema_Method" Bounds="2114.72166666667,864.7125,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Dispose" Icon="CodeSchema_Method" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@137" Category="CodeSchema_Method" Bounds="2259.72166666667,691.77,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Dispose" Icon="CodeSchema_Method" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@138" Category="CodeSchema_Method" Bounds="1974.72166666667,691.77,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Dispose" Icon="CodeSchema_Method" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@139" Category="CodeSchema_Method" Bounds="2404.72166666667,864.7125,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Dispose" Icon="CodeSchema_Method" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@140" Category="CodeSchema_Method" Bounds="1974.72166666667,864.7125,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Dispose" Icon="CodeSchema_Method" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@141" Category="CodeSchema_Method" Bounds="1726.72166666667,691.77,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Dispose" Icon="CodeSchema_Method" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@142" Category="CodeSchema_Method" Bounds="236.904999999999,115.295,151.5,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="EnsureContainerExists" Icon="CodeSchema_Method" Label="EnsureContainerExists" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageDirectory.cs StartLineNumber=37 StartCharacterOffset=0 EndLineNumber=37 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@143" Category="CodeSchema_Method" Bounds="723.481666666667,807.065,66.3466666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Finish" Icon="CodeSchema_Method" IsOverloaded="True" Label="Finish">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@144" Category="CodeSchema_Method" Bounds="576.858333333333,461.179999999999,121.593333333333,25.96" CodeSchemaProperty_IsExternal="True" CommonLabel="FinishDocument" Icon="CodeSchema_Method" IsOverloaded="True" Label="FinishDocument">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@145" Category="CodeSchema_Method" Bounds="1297.85833333333,576.474999999999,121.593333333333,25.96" CodeSchemaProperty_IsExternal="True" CommonLabel="FinishDocument" Icon="CodeSchema_Method" IsOverloaded="True" Label="FinishDocument">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@146" Category="CodeSchema_Method" Bounds="576.858333333334,518.827499999999,121.593333333333,25.96" CodeSchemaProperty_IsExternal="True" CommonLabel="FinishDocument" Icon="CodeSchema_Method" IsOverloaded="True" Label="FinishDocument">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@147" Category="CodeSchema_Method" Bounds="2667.935,980.0075,63.4400000000005,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Flush" Icon="CodeSchema_Method" IsOverloaded="True" Label="Flush" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageIndexOutput.cs StartLineNumber=231 StartCharacterOffset=0 EndLineNumber=231 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@148" Category="CodeSchema_Method" Bounds="2139.935,345.884999999999,63.4400000000005,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="Flush" Icon="CodeSchema_Method" Label="Flush">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@149" Category="CodeSchema_Method" Bounds="343.001666666666,980.0075,85.3066666666668,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ReadByte" Icon="CodeSchema_Method" IsOverloaded="True" Label="ReadByte" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageIndexInput.cs StartLineNumber=36 StartCharacterOffset=0 EndLineNumber=36 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@150" Category="CodeSchema_Method" Bounds="367.001666666666,922.36,85.3066666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ReadByte" Icon="CodeSchema_Method" IsOverloaded="True" Label="ReadByte">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@151" Category="CodeSchema_Method" Bounds="362.021666666667,864.7125,89.2666666666669,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="ReadInt32" Icon="CodeSchema_Method" Label="ReadInt32">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@152" Category="CodeSchema_Method" Bounds="256.276666666667,691.77,56.7566666666667,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="Run" Icon="CodeSchema_Method" Label="Run">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@154" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1300.71833333333,634.122499999999,115.873333333333,25.96" Label="InitFieldsWriter">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@155" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2401.42833333333,749.4175,108.453333333333,25.96" Label="FinishCommit">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@156" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="423.211666666666,288.2375,118.886666666667,25.96" Label="PrepareCommit">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@157" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="450.338333333333,345.885,64.6333333333332,25.96" Label="Write">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@159" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="877.213333333333,288.2375,78.8833333333334,25.96" Label="DoFlush">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@16" Category="CodeSchema_Method" Bounds="2083.83833333333,634.122499999999,145.633333333333,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="SealFlushedSegment" Icon="CodeSchema_Method" Label="SealFlushedSegment">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@160" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1389.855,807.065,231.6,25.96" Label="CompressingStoredFieldsIndexWriter">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@161" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="857.261666666666,230.59,118.786666666667,25.96" Label="FlushAllThreads">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@162" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="117.666666666667,1224.87,273.976666666666,25.96" Label="HandleNonSuccessAndDebuggerNotification">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@163" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="179.891666666666,1282.5175,149.526666666667,25.96" Label="ThrowForNonSuccess">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@164" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2851.66666666667,1700.3225,273.976666666667,25.96" Label="HandleNonSuccessAndDebuggerNotification">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@165" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="724.401666666666,230.59,102.506666666667,25.96" Label="StartCommit">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@167" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2926.13833333333,1757.97,125.033333333333,25.96" Label="InternalWaitCore">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@168" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2911.56833333333,1815.6175,154.173333333334,25.96" Label="SpinThenBlockingWait">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@170" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="635.583333333333,922.36,108.143333333333,25.96" Label="CreateOutput">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@171" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="980.481666666666,691.77,66.3466666666666,25.96" Label="Finish">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@172" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="883.361666666667,807.065,92.5866666666666,25.96" Label="SaveInt32s">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@175" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2782.20333333333,1570.755,106.903333333334,25.96" Label="ProcessAsync">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@176" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2365.20333333333,1570.755,106.903333333334,25.96" Label="ProcessAsync">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@177" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2508.20333333333,1570.755,106.903333333334,25.96" Label="ProcessAsync">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@178" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="572.625,345.885,130.06,25.96" Label="UpdateDocument">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@179" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2645.20333333333,1570.755,106.903333333334,25.96" Label="ProcessAsync">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@180" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2782.79,1628.4025,131.73,25.96" Label="ProcessNextAsync">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@181" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2509.935,634.122499999999,63.4400000000005,25.96" Label="Flush">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@183" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2645.1,1224.87,109.11,25.96" Label="ResizeInternal">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@184" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="879.128333333333,749.4175,103.053333333333,25.96" Label="WriteHeader">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@185" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1628.67666666667,864.7125,111.956666666667,25.96" Label="EncodeLiterals">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@186" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2082.75166666667,749.4175,147.806666666665,25.96" Label="CreateCompoundFile">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@187" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="513.751666666666,691.77,147.806666666667,25.96" Label="CreateCompoundFile">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@188" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1431.75666666667,980.0075,175.796666666667,25.96" Label="Lucene42NormsConsumer">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@189" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2649.765,1282.5175,99.7800000000002,25.96" Label="ResizeAsync">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@23" Category="CodeSchema_Method" Bounds="1866.72166666667,807.065,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Dispose" Icon="CodeSchema_Method" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@26" Category="CodeSchema_Method" Bounds="581.094999999999,172.9425,113.12,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="AddDocument" Icon="CodeSchema_Method" Label="AddDocument">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@27" Category="CodeSchema_Method" Bounds="2259.72166666667,634.122499999999,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Dispose" Icon="CodeSchema_Method" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@29" Category="CodeSchema_Method" Bounds="390.364999999999,0,62.5799999999999,25.96" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Main" Icon="CodeSchema_Method" Label="Main" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/SampleApp/Program.cs StartLineNumber=37 StartCharacterOffset=0 EndLineNumber=37 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@3" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1277.46,980.0075,92.3899999999999,25.96" Label="GetOutput">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@31" Category="CodeSchema_Method" Bounds="1866.72166666667,749.4175,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="Dispose" Icon="CodeSchema_Method" IsOverloaded="True" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@35" Category="CodeSchema_Method" Bounds="2660.72166666667,922.36,77.8666666666668,25.96" CodeSchemaProperty_IsProtected="True" CommonLabel="Dispose" Icon="CodeSchema_Method" IsOverloaded="True" Label="Dispose" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageIndexOutput.cs StartLineNumber=238 StartCharacterOffset=0 EndLineNumber=238 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@37" Category="CodeSchema_Method" Bounds="1974.72166666667,749.4175,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="Dispose" Icon="CodeSchema_Method" IsOverloaded="True" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@39" Category="CodeSchema_Method" Bounds="2114.72166666667,922.36,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="Dispose" Icon="CodeSchema_Method" IsOverloaded="True" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@41" Category="CodeSchema_Method" Bounds="1726.72166666667,749.4175,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="Dispose" Icon="CodeSchema_Method" IsOverloaded="True" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@43" Category="CodeSchema_Method" Bounds="1828.72166666667,922.36,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="Dispose" Icon="CodeSchema_Method" IsOverloaded="True" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@44" Category="CodeSchema_Method" Bounds="2292.72166666667,749.4175,77.8666666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CommonLabel="Dispose" Icon="CodeSchema_Method" IsOverloaded="True" Label="Dispose">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@46" Category="CodeSchema_Method" Bounds="197.111666666666,980.0075,115.086666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="GetBlobLength" Icon="CodeSchema_Method" Label="GetBlobLength" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageIndexInput.cs StartLineNumber=99 StartCharacterOffset=0 EndLineNumber=99 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@47" Category="CodeSchema_Method" Bounds="1096.82333333333,922.36,87.6633333333334,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="WriteByte" Icon="CodeSchema_Method" IsOverloaded="True" Label="WriteByte" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageIndexOutput.cs StartLineNumber=63 StartCharacterOffset=0 EndLineNumber=63 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@5" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="211.386666666666,1167.2225,86.5366666666669,25.96" Label="GetResult">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@50" Category="CodeSchema_Method" Bounds="253.516666666666,634.122499999999,62.2766666666666,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Read" Icon="CodeSchema_Method" Label="Read">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@51" Category="CodeSchema_Method" Bounds="1971.62666666667,634.122499999999,82.0566666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="ReThrow" Icon="CodeSchema_Method" Label="ReThrow">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@52" Category="CodeSchema_Method" Bounds="2648.21,807.065,82.8899999999994,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="AddField" Icon="CodeSchema_Method" IsOverloaded="True" Label="AddField">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@55" Category="CodeSchema_Method" Bounds="2950.69,1570.755,75.9300000000003,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="CodeSchema_Method" IsOverloaded="True" Label="Process">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@56" Category="CodeSchema_Method" Bounds="256.276666666667,749.4175,56.7566666666667,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="Run" Icon="CodeSchema_Method" Label="Run">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@57" Category="CodeSchema_Method" Bounds="1060.12,749.4175,99.0699999999999,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="WriteFooter" Icon="CodeSchema_Method" Label="WriteFooter">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@59" Category="CodeSchema_Method" Bounds="2630.55333333333,1095.3025,138.203333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="EnsureSizeOrResize" Icon="CodeSchema_Method" Label="EnsureSizeOrResize" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageIndexOutput.cs StartLineNumber=213 StartCharacterOffset=0 EndLineNumber=213 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@61" Category="CodeSchema_Method" Bounds="1094.84333333333,864.7125,91.6233333333334,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="WriteInt32" Icon="CodeSchema_Method" Label="WriteInt32">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@62" Category="CodeSchema_Method" Bounds="1217.11666666667,864.7125,99.0766666666668,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="WriteVInt32" Icon="CodeSchema_Method" Label="WriteVInt32">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@64" Category="CodeSchema_Method" Bounds="1069.84333333333,807.065,91.6233333333334,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="WriteInt64" Icon="CodeSchema_Method" Label="WriteInt64">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@68" Category="CodeSchema_Method" Bounds="2434.95666666667,922.36,163.396666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Lucene41PostingsWriter" Icon="CodeSchema_Method" Label="Lucene41PostingsWriter">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@69" Category="CodeSchema_Method" Bounds="2512.64,864.7125,120.03,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="FieldsConsumer" Icon="CodeSchema_Method" IsOverloaded="True" Label="FieldsConsumer">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@7" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2945.38666666667,1628.4025,86.5366666666669,25.96" Label="GetResult">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@71" Category="CodeSchema_Method" Bounds="2139.935,403.532499999999,63.4400000000005,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Flush" Icon="CodeSchema_Method" IsOverloaded="True" Label="Flush">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@72" Category="CodeSchema_Method" Bounds="2076.935,576.475,63.4400000000005,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Flush" Icon="CodeSchema_Method" IsOverloaded="True" Label="Flush">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@73" Category="CodeSchema_Method" Bounds="2139.935,518.8275,63.4400000000005,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Flush" Icon="CodeSchema_Method" IsOverloaded="True" Label="Flush">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@74" Category="CodeSchema_Method" Bounds="920.889999999999,634.1225,125.53,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="NormsConsumer" Icon="CodeSchema_Method" IsOverloaded="True" Label="NormsConsumer">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@77" Category="CodeSchema_Method" Bounds="0,634.1225,89.3099999999999,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="MakeLock" Icon="CodeSchema_Method" IsOverloaded="True" Label="MakeLock" SourceLocation="(Assembly=file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/AzureStorageDirectory.cs StartLineNumber=118 StartCharacterOffset=0 EndLineNumber=118 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@78" Category="CodeSchema_Method" Bounds="1378.84333333333,864.7125,95.6233333333334,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="WriteString" Icon="CodeSchema_Method" Label="WriteString">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@8" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="755.176666666666,749.4175,92.9566666666667,25.96" Label="WriteBlock">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@80" Category="CodeSchema_Method" Bounds="2661.69,1397.8125,75.9300000000003,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="CodeSchema_Method" IsOverloaded="True" Label="Process">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@81" Category="CodeSchema_Method" Bounds="2950.69,1513.1075,75.9300000000003,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="CodeSchema_Method" IsOverloaded="True" Label="Process">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@82" Category="CodeSchema_Method" Bounds="2799.69,1513.1075,75.9300000000003,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="CodeSchema_Method" IsOverloaded="True" Label="Process">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@83" Category="CodeSchema_Method" Bounds="2661.69,1513.1075,75.9300000000003,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="CodeSchema_Method" IsOverloaded="True" Label="Process">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@84" Category="CodeSchema_Method" Bounds="2417.69,1513.1075,75.9300000000003,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="CodeSchema_Method" IsOverloaded="True" Label="Process">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@85" Category="CodeSchema_Method" Bounds="2523.69,1513.1075,75.9300000000003,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Process" Icon="CodeSchema_Method" IsOverloaded="True" Label="Process">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@86" Category="CodeSchema_Method" Bounds="2649.27666666667,1455.46,100.756666666666,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsStatic="True" CommonLabel="ProcessNext" Icon="CodeSchema_Method" Label="ProcessNext">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@87" Category="CodeSchema_Method" Bounds="1974.97833333333,807.065,207.353333333333,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="DisposeWhileHandlingException" Icon="CodeSchema_Method" Label="DisposeWhileHandlingException">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@88" Category="CodeSchema_Method" Bounds="581.094999999999,230.59,113.12,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="AddDocument" Icon="CodeSchema_Method" Label="AddDocument">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@9" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1141.935,691.77,63.4400000000001,25.96" Label="Flush">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="@92" Category="CodeSchema_Method" Bounds="200.481666666666,1037.655,108.346666666667,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="GetProperties" Icon="CodeSchema_Method" Label="GetProperties">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@93" Category="CodeSchema_Method" Bounds="2668.40166666667,1340.165,62.5066666666662,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Send" Icon="CodeSchema_Method" Label="Send">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@94" Category="CodeSchema_Method" Bounds="106.835,576.474999999999,97.6399999999999,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IndexWriter" Icon="CodeSchema_Method" Label="IndexWriter">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@95" Category="CodeSchema_Method" Bounds="973.276666666666,922.36,92.7566666666667,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="WriteBytes" Icon="CodeSchema_Method" Label="WriteBytes">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@96" Category="CodeSchema_Method" Bounds="1076.48166666667,634.1225,66.3466666666666,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Finish" Icon="CodeSchema_Method" IsOverloaded="True" Label="Finish">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@97" Category="CodeSchema_Method" Bounds="513.933333333333,864.7125,91.4433333333334,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="CopyBytes" Icon="CodeSchema_Method" Label="CopyBytes">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@98" Category="CodeSchema_Method" Bounds="2212.54833333333,807.065,138.213333333333,25.96" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="WriteSegmentsGen" Icon="CodeSchema_Method" Label="WriteSegmentsGen">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@11" Category="CallStackDirectCall" Bounds="841.581481933594,141.255004882813,81.6563110351563,28.7029266357422" />
+    <Link Source="@10" Target="@12" Category="CallStackDirectCall" Bounds="804.655029296875,141.255004882813,0,22.6875" />
+    <Link Source="@100" Target="(@32 @33 @34 Member=(@65 OverloadingParameters=[(@32 @33 @75),@76]))" Category="CallStackDirectCall" Bounds="1400.65502929688,1121.26245117188,0,36.9600830078125" />
+    <Link Source="@101" Target="@170" Category="CallStackDirectCall" Bounds="689.655029296875,890.672485351563,0,22.6875" />
+    <Link Source="@102" Target="@100" Category="CallStackDirectCall" Bounds="1463.70043945313,1054.77453613281,635.8828125,48.681396484375" />
+    <Link Source="@103" Target="@104" Category="CallStackDirectCall" Bounds="284.654998779297,833.025024414063,0,22.6875" />
+    <Link Source="@104" Target="@112" Category="CallStackDirectCall" Bounds="265.564575195313,890.672485351563,12.3355712890625,23.703857421875" />
+    <Link Source="@107" Target="@108" Category="CallStackDirectCall" Bounds="2077.65502929688,487.140014648438,0,22.6875" />
+    <Link Source="@107" Target="@109" Category="CallStackDirectCall" Bounds="2014.65502929688,487.140014648438,34.629638671875,80.3349609375" />
+    <Link Source="@108" Target="@110" Category="CallStackDirectCall" Bounds="2109.375,540.081604003906,148.851318359375,38.82763671875" />
+    <Link Source="@109" Target="@27" Category="CallStackDirectCall" Bounds="2046.375,597.357543945313,204.527587890625,40.0228881835938" />
+    <Link Source="@109" Target="@74" Category="CallStackDirectCall" Bounds="1053.2421875,590.783935546875,929.69287109375,42.147705078125" />
+    <Link Source="@11" Target="@155" Category="CallStackDirectCall" Bounds="1022.88165283203,186.877883911133,1581.77337646484,559.641098022461" />
+    <Link Source="@110" Target="@181" Category="CallStackDirectCall" Bounds="2330.375,596.980041503906,170.802978515625,40.52001953125" />
+    <Link Source="@110" Target="@27" Category="CallStackDirectCall" Bounds="2298.65502929688,602.434997558594,0,22.6875" />
+    <Link Source="@111" Target="@102" Category="CallStackDirectCall" Bounds="2216.615234375,1005.68670654297,220.07421875,34.9496459960938" />
+    <Link Source="@112" Target="@46" Category="CallStackDirectCall" Bounds="254.654998779297,948.320007324219,0,22.6875" />
+    <Link Source="@113" Target="@178" Category="CallStackDirectCall" Bounds="637.655029296875,314.197509765625,0,22.6875" />
+    <Link Source="@114" Target="@183" Category="CallStackDirectCall" Bounds="2699.65502929688,1193.18249511719,0,22.6875" />
+    <Link Source="@115" Target="@59" Category="CallStackDirectCall" Bounds="2699.65502929688,1063.61499023438,0,22.6875" />
+    <Link Source="@117" Target="@61" Category="CallStackDirectCall" Bounds="1171.7001953125,833.025024414063,48.76318359375,27.2919311523438" />
+    <Link Source="@117" Target="@78" Category="CallStackDirectCall" Bounds="1281.03186035156,833.025024414063,91.9664306640625,29.1983032226563" />
+    <Link Source="@118" Target="@129" Category="CallStackDirectCall" Bounds="1358.65502929688,717.72998046875,0,22.6875" />
+    <Link Source="@119" Target="@142" Category="CallStackDirectCall" Bounds="312.654998779297,83.6074981689453,0,22.6875" />
+    <Link Source="@12" Target="@161" Category="CallStackDirectCall" Bounds="829.873107910156,198.902496337891,53.5615844726563,27.5686950683594" />
+    <Link Source="@12" Target="@165" Category="CallStackDirectCall" Bounds="786.229248046875,198.902496337891,11.8960571289063,23.6475219726563" />
+    <Link Source="@120" Target="@144" Category="CallStackDirectCall" Bounds="637.655029296875,429.492492675781,0,22.6875" />
+    <Link Source="@121" Target="@130" Category="CallStackDirectCall" Bounds="164.161224365234,429.492492675781,102.873718261719,661.720031738281" />
+    <Link Source="@122" Target="@130" Category="CallStackDirectCall" Bounds="292.153350830078,1063.61499023438,63.2306518554688,28.0391845703125" />
+    <Link Source="@123" Target="@185" Category="CallStackDirectCall" Bounds="1689.19104003906,833.025024414063,4.761962890625,22.8763427734375" />
+    <Link Source="@124" Target="@102" Category="CallStackDirectCall" Bounds="2207.79077148438,1005.96752929688,88.090087890625,29.213134765625" />
+    <Link Source="@125" Target="@102" Category="CallStackDirectCall" Bounds="2171.92041015625,829.692810058594,209.41796875,201.384582519531" />
+    <Link Source="@125" Target="@139" Category="CallStackDirectCall" Bounds="2420.40991210938,833.025024414063,12.33544921875,23.703857421875" />
+    <Link Source="@126" Target="@101" Category="CallStackDirectCall" Bounds="588.826843261719,832.981018066406,63.3297729492188,28.0831298828125" />
+    <Link Source="@126" Target="@104" Category="CallStackDirectCall" Bounds="339.993530273438,826.681823730469,188.00146484375,39.4102172851563" />
+    <Link Source="@126" Target="@97" Category="CallStackDirectCall" Bounds="559.655029296875,833.025024414063,0,22.6875" />
+    <Link Source="@127" Target="@126" Category="CallStackDirectCall" Bounds="569.891662597656,775.377502441406,11.4588012695313,23.5919189453125" />
+    <Link Source="@128" Target="@102" Category="CallStackDirectCall" Bounds="2216.71020507813,890.334106445313,452.243896484375,156.482666015625" />
+    <Link Source="@128" Target="@35" Category="CallStackDirectCall" Bounds="2699.65502929688,890.672485351563,0,22.6875" />
+    <Link Source="@129" Target="@102" Category="CallStackDirectCall" Bounds="1460.03833007813,771.947326660156,630.570556640625,273.930480957031" />
+    <Link Source="@129" Target="@117" Category="CallStackDirectCall" Bounds="1274.47326660156,775.377502441406,55.361083984375,27.2887573242188" />
+    <Link Source="@129" Target="@160" Category="CallStackDirectCall" Bounds="1391.75378417969,775.377502441406,72.4237060546875,28.4016723632813" />
+    <Link Source="@129" Target="@47" Category="CallStackDirectCall" Bounds="1193.40063476563,775.377502441406,165.25439453125,152.617919921875" />
+    <Link Source="@129" Target="@62" Category="CallStackDirectCall" Bounds="1280.79211425781,775.377502441406,63.4525146484375,81.940673828125" />
+    <Link Source="@13" Target="@95" Category="CallStackDirectCall" Bounds="851.614990234375,890.672485351563,112.8212890625,34.1270751953125" />
+    <Link Source="@130" Target="@5" Category="CallStackIndirectCall" Bounds="254.654998779297,1121.26245117188,0,36.9600830078125" Label="Async Call" LabelBounds="201.044999999999,1136.2625,53.6100000000006,15.96" />
+    <Link Source="@131" Target="@10" Category="CallStackDirectCall" Bounds="530.708312988281,77.8202362060547,206.028381347656,37.9457473754883" />
+    <Link Source="@133" Target="@138" Category="CallStackDirectCall" Bounds="1835.65502929688,714.179504394531,130.237060546875,150.533020019531" />
+    <Link Source="@134" Target="@102" Category="CallStackDirectCall" Bounds="2153.65502929688,1005.96752929688,0,22.6875" />
+    <Link Source="@134" Target="@87" Category="CallStackDirectCall" Bounds="2082.1103515625,841.944152832031,55.783447265625,138.063354492188" />
+    <Link Source="@135" Target="@139" Category="CallStackDirectCall" Bounds="2490.82836914063,833.025024414063,70.71435546875,30.6498413085938" />
+    <Link Source="@136" Target="@39" Category="CallStackDirectCall" Bounds="2153.65502929688,890.672485351563,0,22.6875" />
+    <Link Source="@137" Target="@44" Category="CallStackDirectCall" Bounds="2306.08544921875,717.72998046875,13.66796875,23.8767700195313" />
+    <Link Source="@138" Target="@31" Category="CallStackDirectCall" Bounds="1937.91223144531,717.72998046875,51.42529296875,27.4495239257813" />
+    <Link Source="@138" Target="@37" Category="CallStackDirectCall" Bounds="2013.65502929688,717.72998046875,0,22.6875" />
+    <Link Source="@139" Target="@35" Category="CallStackDirectCall" Bounds="2482.58837890625,886.459716796875,169.35302734375,38.1359252929688" />
+    <Link Source="@140" Target="@43" Category="CallStackDirectCall" Bounds="1908.89965820313,890.672485351563,71.8817138671875,28.3822021484375" />
+    <Link Source="@141" Target="@41" Category="CallStackDirectCall" Bounds="1765.65502929688,717.72998046875,0,22.6875" />
+    <Link Source="@142" Target="@121" Category="CallStackDirectCall" Bounds="269.654998779297,141.255004882813,23.6361083984375,253.277496337891" />
+    <Link Source="@143" Target="@13" Category="CallStackDirectCall" Bounds="774.89306640625,833.025024414063,37.1912841796875,26.4689331054688" />
+    <Link Source="@144" Target="@146" Category="CallStackDirectCall" Bounds="637.655029296875,487.140014648438,0,22.6875" />
+    <Link Source="@145" Target="@154" Category="CallStackDirectCall" Bounds="1358.65502929688,602.434997558594,0,22.6875" />
+    <Link Source="@146" Target="@145" Category="CallStackDirectCall" Bounds="698.45166015625,536.668518066406,590.435302734375,47.2081909179688" />
+    <Link Source="@147" Target="@115" Category="CallStackDirectCall" Bounds="2699.65502929688,1005.96752929688,0,22.6875" />
+    <Link Source="@148" Target="@16" Category="CallStackDirectCall" Bounds="2200.47216796875,371.843414306641,35.182861328125,258.861907958984" />
+    <Link Source="@148" Target="@71" Category="CallStackDirectCall" Bounds="2171.65502929688,371.845001220703,0,22.6875" />
+    <Link Source="@149" Target="@122" Category="CallStackDirectCall" Bounds="384.689483642578,1005.96752929688,0.51519775390625,22.6875" />
+    <Link Source="@150" Target="@149" Category="CallStackDirectCall" Bounds="394.517974853516,948.320007324219,9.733154296875,23.3787841796875" />
+    <Link Source="@151" Target="@150" Category="CallStackDirectCall" Bounds="407.330474853516,890.672485351563,1.18130493164063,22.69970703125" />
+    <Link Source="@152" Target="@56" Category="CallStackDirectCall" Bounds="284.654998779297,717.72998046875,0,22.6875" />
+    <Link Source="@154" Target="@118" Category="CallStackDirectCall" Bounds="1358.65502929688,660.08251953125,0,22.6875" />
+    <Link Source="@155" Target="@139" Category="CallStackDirectCall" Bounds="2464.92993164063,775.377502441406,11.72509765625,83.0217895507813" />
+    <Link Source="@155" Target="@98" Category="CallStackDirectCall" Bounds="2329.37646484375,775.377502441406,87.100341796875,28.8570556640625" />
+    <Link Source="@156" Target="@157" Category="CallStackDirectCall" Bounds="482.654998779297,314.197509765625,0,22.6875" />
+    <Link Source="@157" Target="@100" Category="CallStackDirectCall" Bounds="482.675476074219,371.845001220703,854.978210449219,728.516326904297" />
+    <Link Source="@159" Target="@148" Category="CallStackDirectCall" Bounds="956.0966796875,303.029235839844,1174.84790039063,53.9657592773438" />
+    <Link Source="@16" Target="@125" Category="CallStackDirectCall" Bounds="2189.07836914063,660.08251953125,183.6005859375,149.158325195313" />
+    <Link Source="@16" Target="@186" Category="CallStackDirectCall" Bounds="2156.65502929688,660.08251953125,0,80.3349609375" />
+    <Link Source="@16" Target="@187" Category="CallStackDirectCall" Bounds="666.434143066406,660.08251953125,1437.06390380859,30.6656494140625" />
+    <Link Source="@160" Target="@47" Category="CallStackDirectCall" Bounds="1193.45874023438,833.025024414063,312.1962890625,98.1450805664063" />
+    <Link Source="@161" Target="@159" Category="CallStackDirectCall" Bounds="916.655029296875,256.549987792969,0,22.6875" />
+    <Link Source="@162" Target="@163" Category="CallStackDirectCall" Bounds="254.654998779297,1250.82995605469,0,22.6875" />
+    <Link Source="@163" Target="(Name=System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw @4 @6 @2)" Category="CallStackDirectCall" Bounds="254.654998779297,1308.4775390625,0,22.6875" />
+    <Link Source="@164" Target="@167" Category="CallStackDirectCall" Bounds="2988.65502929688,1726.28247070313,0,22.6875" />
+    <Link Source="@165" Target="@156" Category="CallStackDirectCall" Bounds="550.990295410156,256.549987792969,176.930480957031,33.8905944824219" />
+    <Link Source="@167" Target="@168" Category="CallStackDirectCall" Bounds="2988.65502929688,1783.93005371094,0,22.6875" />
+    <Link Source="@168" Target="(Name=System.Threading.ManualResetEventSlim.Wait @4 @158 OverloadingParameters=[(@166 Name=millisecondsTimeout),(Type=System.Threading.CancellationToken Name=cancellationToken)] @2)" Category="CallStackDirectCall" Bounds="2988.65502929688,1841.57751464844,0,22.6875" />
+    <Link Source="@170" Target="@3" Category="CallStackDirectCall" Bounds="713.522094726563,948.320007324219,554.948974609375,41.9298095703125" />
+    <Link Source="@171" Target="@143" Category="CallStackDirectCall" Bounds="724.655029296875,708.05859375,255.82666015625,92.5856323242188" />
+    <Link Source="@171" Target="@47" Category="CallStackDirectCall" Bounds="1009.98126220703,717.72998046875,92.2346801757813,201.073364257813" />
+    <Link Source="@171" Target="@57" Category="CallStackDirectCall" Bounds="1028.06530761719,717.72998046875,44.5802001953125,27.9535522460938" />
+    <Link Source="@171" Target="@8" Category="CallStackDirectCall" Bounds="855.682983398438,713.770568847656,124.798706054688,33.935546875" />
+    <Link Source="@172" Target="@47" Category="CallStackDirectCall" Bounds="949.919555664063,833.025024414063,157.835571289063,85.1770629882813" />
+    <Link Source="@175" Target="@86" Category="CallStackDirectCall" Bounds="2738.97680664063,1485.01770019531,66.506591796875,85.7373046875" />
+    <Link Source="@176" Target="@86" Category="CallStackDirectCall" Bounds="2386.65502929688,1473.90454101563,253.65966796875,96.8504638671875" />
+    <Link Source="@177" Target="@86" Category="CallStackDirectCall" Bounds="2592.72729492188,1485.01770019531,67.605712890625,85.7373046875" />
+    <Link Source="@178" Target="@120" Category="CallStackDirectCall" Bounds="637.655029296875,371.845001220703,0,22.6875" />
+    <Link Source="@179" Target="@180" Category="CallStackDirectCall" Bounds="2732.42919921875,1596.71496582031,74.050537109375,28.4588623046875" />
+    <Link Source="@180" Target="@86" Category="CallStackDirectCall" Bounds="2758.95703125,1476.20959472656,160.697998046875,152.19287109375" />
+    <Link Source="@181" Target="@52" Category="CallStackDirectCall" Bounds="2555.61499023438,660.08251953125,117.829833984375,139.995178222656" />
+    <Link Source="@183" Target="@189" Category="CallStackDirectCall" Bounds="2699.65502929688,1250.82995605469,0,22.6875" />
+    <Link Source="@184" Target="@143" Category="CallStackDirectCall" Bounds="798.448181152344,775.377502441406,97.0816040039063,32.1192016601563" />
+    <Link Source="@184" Target="@172" Category="CallStackDirectCall" Bounds="930.382995605469,775.377502441406,0.27203369140625,22.6917724609375" />
+    <Link Source="@184" Target="@47" Category="CallStackDirectCall" Bounds="872.40185546875,775.377502441406,216.4814453125,145.613891601563" />
+    <Link Source="@185" Target="@116" Category="CallStackDirectCall" Bounds="1684.65502929688,890.672485351563,0,80.3350219726563" />
+    <Link Source="@185" Target="@47" Category="CallStackDirectCall" Bounds="1193.462890625,888.567932128906,435.3505859375,42.9283447265625" />
+    <Link Source="@186" Target="@87" Category="CallStackDirectCall" Bounds="2103.45532226563,775.377502441406,35.636962890625,26.3382568359375" />
+    <Link Source="@187" Target="@127" Category="CallStackDirectCall" Bounds="587.655029296875,717.72998046875,0,22.6875" />
+    <Link Source="@188" Target="@102" Category="CallStackDirectCall" Bounds="1607.16015625,1004.4521484375,483.44482421875,41.793212890625" />
+    <Link Source="@189" Target="@93" Category="CallStackDirectCall" Bounds="2699.65502929688,1308.4775390625,0,22.6875" />
+    <Link Source="@23" Target="@133" Category="CallStackDirectCall" Bounds="1905.65502929688,833.025024414063,0,22.6875" />
+    <Link Source="@26" Target="@88" Category="CallStackDirectCall" Bounds="637.655029296875,198.902496337891,0,22.6875" />
+    <Link Source="@27" Target="@135" Category="CallStackDirectCall" Bounds="2337.58837890625,651.739685058594,235.349609375,146.622741699219" />
+    <Link Source="@27" Target="@137" Category="CallStackDirectCall" Bounds="2298.65502929688,660.08251953125,0,22.6875" />
+    <Link Source="@27" Target="@138" Category="CallStackDirectCall" Bounds="2061.46875,657.30224609375,198.260986328125,39.572509765625" />
+    <Link Source="@27" Target="@139" Category="CallStackDirectCall" Bounds="2337.58837890625,652.446350097656,191.03564453125,205.379272460938" />
+    <Link Source="@27" Target="@141" Category="CallStackDirectCall" Bounds="1790.67907714844,659.935119628906,471.113891601563,27.5449829101563" />
+    <Link Source="@29" Target="@119" Category="CallStackDirectCall" Bounds="345.153472900391,25.9599990844727,51.9589233398438,27.4798393249512" />
+    <Link Source="@29" Target="@131" Category="CallStackDirectCall" Bounds="437.416320800781,25.9599990844727,31.530029296875,25.9661102294922" />
+    <Link Source="@29" Target="@26" Category="CallStackDirectCall" Bounds="421.654998779297,25.9599990844727,150.519073486328,151.224510192871" />
+    <Link Source="@29" Target="@94" Category="CallStackDirectCall" Bounds="157.578475952148,17.1171340942383,232.786514282227,550.392265319824" />
+    <Link Source="@3" Target="@102" Category="CallStackDirectCall" Bounds="1343.91955566406,1005.96752929688,746.669799804688,42.351806640625" />
+    <Link Source="@31" Target="@23" Category="CallStackDirectCall" Bounds="1905.65502929688,775.377502441406,0,22.6875" />
+    <Link Source="@35" Target="@147" Category="CallStackDirectCall" Bounds="2699.65502929688,948.320007324219,0,22.6875" />
+    <Link Source="@37" Target="@87" Category="CallStackDirectCall" Bounds="2028.29052734375,775.377502441406,28.99560546875,25.7157592773438" />
+    <Link Source="@39" Target="@134" Category="CallStackDirectCall" Bounds="2153.65502929688,948.320007324219,0,22.6875" />
+    <Link Source="@41" Target="@27" Category="CallStackDirectCall" Bounds="1797.17761230469,661.868103027344,455.627563476563,87.5493774414063" />
+    <Link Source="@43" Target="@27" Category="CallStackDirectCall" Bounds="1695.65502929688,662.093505859375,558.112548828125,260.266479492188" />
+    <Link Source="@44" Target="@27" Category="CallStackDirectCall" Bounds="2338.44775390625,663.633056640625,30.207275390625,85.784423828125" />
+    <Link Source="@46" Target="@92" Category="CallStackDirectCall" Bounds="254.654998779297,1005.96752929688,0,22.6875" />
+    <Link Source="@5" Target="@162" Category="CallStackDirectCall" Bounds="254.654998779297,1193.18249511719,0,22.6875" />
+    <Link Source="@50" Target="@152" Category="CallStackDirectCall" Bounds="284.654998779297,660.08251953125,0,22.6875" />
+    <Link Source="@51" Target="(@14 @17 @18 Member=(Name=ReThrowUnchecked OverloadingParameters=[(@19 @22 Type=Exception)]))" Category="CallStackDirectCall" Bounds="1634.49975585938,650.500732421875,337.126953125,37.8424682617188" />
+    <Link Source="@52" Target="@69" Category="CallStackDirectCall" Bounds="2607.07202148438,833.025024414063,56.239013671875,27.7096557617188" />
+    <Link Source="@55" Target="@7" Category="CallStackDirectCall" Bounds="2988.65502929688,1596.71496582031,0,22.6875" />
+    <Link Source="@56" Target="@103" Category="CallStackDirectCall" Bounds="284.654998779297,775.377502441406,0,22.6875" />
+    <Link Source="@56" Target="@151" Category="CallStackDirectCall" Bounds="313.033325195313,770.187683105469,89.3337097167969,85.69384765625" />
+    <Link Source="@57" Target="@61" Category="CallStackDirectCall" Bounds="1038.65502929688,775.377502441406,48.9664306640625,87.3167724609375" />
+    <Link Source="@57" Target="@64" Category="CallStackDirectCall" Bounds="1111.00598144531,775.377502441406,2.3663330078125,22.73583984375" />
+    <Link Source="@59" Target="@114" Category="CallStackDirectCall" Bounds="2699.65502929688,1121.26245117188,0,36.9600830078125" />
+    <Link Source="@61" Target="@47" Category="CallStackDirectCall" Bounds="1140.65502929688,890.672485351563,0,22.6875" />
+    <Link Source="@62" Target="@47" Category="CallStackDirectCall" Bounds="1177.20947265625,890.672485351563,61.0751953125,27.943115234375" />
+    <Link Source="@64" Target="@61" Category="CallStackDirectCall" Bounds="1121.28405761719,833.025024414063,10.1611328125,23.4304809570313" />
+    <Link Source="@68" Target="@111" Category="CallStackDirectCall" Bounds="2516.65502929688,948.320007324219,0,22.6875" />
+    <Link Source="@69" Target="@124" Category="CallStackDirectCall" Bounds="2346.61474609375,887.926513671875,166.0361328125,85.2430419921875" />
+    <Link Source="@69" Target="@68" Category="CallStackDirectCall" Bounds="2533.30444335938,890.672485351563,24.940185546875,24.8411254882813" />
+    <Link Source="@7" Target="@164" Category="CallStackIndirectCall" Bounds="2988.65502929688,1654.36254882813,0,36.9599609375" Label="Async Call" LabelBounds="2935.045,1669.3625,53.6099999999997,15.96" />
+    <Link Source="@71" Target="@107" Category="CallStackDirectCall" Bounds="2106.49243164063,429.492492675781,43.997314453125,26.9823913574219" />
+    <Link Source="@71" Target="@128" Category="CallStackDirectCall" Bounds="2202.88916015625,428.129119873047,538.0439453125,431.873748779297" />
+    <Link Source="@71" Target="@73" Category="CallStackDirectCall" Bounds="2171.65502929688,429.492492675781,0,80.3350219726563" />
+    <Link Source="@72" Target="@27" Category="CallStackDirectCall" Bounds="2140.375,599.0791015625,111.2470703125,33.753173828125" />
+    <Link Source="@72" Target="@51" Category="CallStackDirectCall" Bounds="2041.98620605469,602.434997558594,45.0533447265625,27.0542602539063" />
+    <Link Source="@72" Target="@96" Category="CallStackDirectCall" Bounds="1151.79296875,601.668090820313,926.138671875,41.6849975585938" />
+    <Link Source="@73" Target="@72" Category="CallStackDirectCall" Bounds="2129.47998046875,544.787475585938,27.98974609375,25.6118774414063" />
+    <Link Source="@74" Target="@188" Category="CallStackDirectCall" Bounds="692.655029296875,653.319396972656,742.5947265625,325.75634765625" />
+    <Link Source="@77" Target="(@32 @33 Type=AzureStorageLockFactory Member=(Name=MakeLock OverloadingParameters=[@76]))" Category="CallStackDirectCall" Bounds="44.6549987792969,660.08251953125,0,22.6875" />
+    <Link Source="@78" Target="@116" Category="CallStackDirectCall" Bounds="1447.82019042969,890.672485351563,196.834228515625,85.922119140625" />
+    <Link Source="@78" Target="@47" Category="CallStackDirectCall" Bounds="1193.421875,890.672485351563,212.067993164063,38.3037719726563" />
+    <Link Source="@8" Target="@143" Category="CallStackDirectCall" Bounds="772.325256347656,775.377502441406,19.1974487304688,24.5930786132813" />
+    <Link Source="@8" Target="@47" Category="CallStackDirectCall" Bounds="810.211120605469,775.377502441406,285.950866699219,143.931823730469" />
+    <Link Source="@80" Target="@86" Category="CallStackDirectCall" Bounds="2717.21752929688,1423.7724609375,11.6875,25.9268798828125" />
+    <Link Source="@81" Target="@55" Category="CallStackDirectCall" Bounds="2988.65502929688,1539.06750488281,0,22.6875" />
+    <Link Source="@82" Target="@175" Category="CallStackDirectCall" Bounds="2835.72387695313,1539.06750488281,1.030517578125,22.687744140625" />
+    <Link Source="@83" Target="@179" Category="CallStackDirectCall" Bounds="2698.689453125,1539.06750488281,0.51513671875,22.6876220703125" />
+    <Link Source="@84" Target="@176" Category="CallStackDirectCall" Bounds="2431.84741210938,1539.06750488281,15.4765625,24.1134033203125" />
+    <Link Source="@85" Target="@177" Category="CallStackDirectCall" Bounds="2561.65502929688,1539.06750488281,0,22.6875" />
+    <Link Source="@86" Target="@80" Category="CallStackDirectCall" Bounds="2670.40502929688,1429.533203125,11.687255859375,25.9267578125" />
+    <Link Source="@86" Target="@81" Category="CallStackDirectCall" Bounds="2750.03344726563,1474.20227050781,214.3427734375,34.111083984375" />
+    <Link Source="@86" Target="@82" Category="CallStackDirectCall" Bounds="2744.68725585938,1481.42004394531,68.49755859375,26.504638671875" />
+    <Link Source="@86" Target="@83" Category="CallStackDirectCall" Bounds="2699.65502929688,1481.42004394531,0,22.6875" />
+    <Link Source="@86" Target="@84" Category="CallStackDirectCall" Bounds="2502.3310546875,1479.32751464844,147.086181640625,34.639404296875" />
+    <Link Source="@86" Target="@85" Category="CallStackDirectCall" Bounds="2585.6240234375,1481.42004394531,68.54833984375,26.433349609375" />
+    <Link Source="@87" Target="@136" Category="CallStackDirectCall" Bounds="2095.54223632813,833.025024414063,34.090087890625,26.2027587890625" />
+    <Link Source="@87" Target="@139" Category="CallStackDirectCall" Bounds="2129.54150390625,833.025024414063,266.238525390625,39.1915283203125" />
+    <Link Source="@87" Target="@140" Category="CallStackDirectCall" Bounds="2035.02392578125,833.025024414063,28.99560546875,25.7157592773438" />
+    <Link Source="@88" Target="@113" Category="CallStackDirectCall" Bounds="637.655029296875,256.549987792969,0,22.6875" />
+    <Link Source="@9" Target="@123" Category="CallStackDirectCall" Bounds="1205.375,708.481811523438,479.37841796875,90.7723999023438" />
+    <Link Source="@9" Target="@184" Category="CallStackDirectCall" Bounds="991.010986328125,714.273864746094,150.924072265625,36.2890625" />
+    <Link Source="@92" Target="@130" Category="CallStackDirectCall" Bounds="254.654998779297,1063.61499023438,0,22.6875" />
+    <Link Source="@93" Target="@80" Category="CallStackDirectCall" Bounds="2699.65502929688,1366.125,0,22.6875" />
+    <Link Source="@94" Target="(@14 @38 Type=Lock Member=(Name=Obtain OverloadingParameters=[@63]))" Category="CallStackDirectCall" Bounds="155.654998779297,602.434997558594,0,22.6875" />
+    <Link Source="@94" Target="@50" Category="CallStackDirectCall" Bounds="177.2705078125,602.434997558594,67.9512023925781,30.6351928710938" />
+    <Link Source="@94" Target="@77" Category="CallStackDirectCall" Bounds="77.6350173950195,602.434997558594,53.0270462036133,27.5394287109375" />
+    <Link Source="@95" Target="@116" Category="CallStackDirectCall" Bounds="1064.97839355469,947.60400390625,565.481567382813,31.6573486328125" />
+    <Link Source="@96" Target="@171" Category="CallStackDirectCall" Bounds="1042.98620605469,660.08251953125,45.0533447265625,27.05419921875" />
+    <Link Source="@96" Target="@57" Category="CallStackDirectCall" Bounds="1109.65502929688,660.08251953125,0,80.3349609375" />
+    <Link Source="@96" Target="@9" Category="CallStackDirectCall" Bounds="1138.47570800781,660.08251953125,33.111328125,22.9282836914063" />
+    <Link Source="@97" Target="(@32 @33 @45 Member=(Name=ReadBytes OverloadingParameters=[(@19 @22 Type=(Name=Byte ArrayRank=1 ParentType=Byte)),@58,@58]))" Category="CallStackDirectCall" Bounds="559.655029296875,890.672485351563,0,22.6875" />
+    <Link Source="@98" Target="@100" Category="CallStackDirectCall" Bounds="1405.25915527344,832.883483886719,809.378784179688,253.613464355469" />
+    <Link Source="@98" Target="@139" Category="CallStackDirectCall" Bounds="2318.13110351563,833.025024414063,80.6630859375,28.703857421875" />
+  </Links>
+  <Categories>
+    <Category Id="CallStackDirectCall" Label="Call Stack direct call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack direct call" OutgoingActionLabel="Call Stack direct call" />
+    <Category Id="CallStackEntry" Label="Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Call Stack Entry" />
+    <Category Id="CallStackIndirectCall" Label="Call Stack indirect call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack indirect call" OutgoingActionLabel="Call Stack indirect call" />
+    <Category Id="CodeSchema_CallStackUnresolvedMethod" Label="Unresolved Method" CanBeDataDriven="True" DefaultAction="Microsoft.AllOutBoundLinks" IsProviderRoot="False" NavigationActionLabel="Unresolved Method" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_SourceLocation" Label="Source Location" Icon="File" />
+    <Category Id="ExternalCallStackEntry" Label="External Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="External Call Stack Entry" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsExtension" Label="Is Extension" Description="Flag indicating if the method is an extension method" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsExternal" Label="Is External" Description="Flag indicating whether this node is considered external" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="Is Protected" Description="Flag to indicate the scope is Protected" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="Is Static" Description="Flag to indicate the member is a static member" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="Is Virtual" Description="Flag to indicate the method can be overridden" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsOverloaded" Label="IsOverloaded" Description="IsOverloaded" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="ArrayRank" Label="Array Rank" ValueType="System.String" />
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="GenericArguments" Label="Generic Arguments" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" />
+    <Name Id="GenericParameterCount" Label="Generic Parameter Count" ValueType="System.String" />
+    <Name Id="IsUnresolved" Label="Is Unresolved" ValueType="System.String" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParameterIdentifier" Label="Parameter Identifier" ValueType="System.String" />
+    <Name Id="ParentType" Label="Parent Type" ValueType="System.Object" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=Lucene.Net.dll" />
+    <Alias n="2" Id="IsUnresolved=True" />
+    <Alias n="3" Id="(Name=Lucene.Net.Store.CompoundFileWriter.GetOutput @1 Type=Lucene.Net.Store.IndexOutput @2)" />
+    <Alias n="4" Uri="Assembly=System.Private.CoreLib.dll" />
+    <Alias n="5" Id="(Name=System.Runtime.CompilerServices.TaskAwaiter&lt;System.__Canon&gt;.GetResult @4 Type=System.__Canon @2)" />
+    <Alias n="6" Id="Type=void" />
+    <Alias n="7" Id="(Name=System.Runtime.CompilerServices.ValueTaskAwaiter.GetResult @4 @6 @2)" />
+    <Alias n="8" Id="(Name=Lucene.Net.Codecs.Compressing.CompressingStoredFieldsIndexWriter.WriteBlock @1 @6 @2)" />
+    <Alias n="9" Id="(Name=Lucene.Net.Codecs.Compressing.CompressingStoredFieldsWriter.Flush @1 @6 @2)" />
+    <Alias n="10" Id="(Name=Lucene.Net.Index.IndexWriter.CommitInternal @1 @6 @2)" />
+    <Alias n="11" Id="(Name=Lucene.Net.Index.IndexWriter.FinishCommit @1 @6 @2)" />
+    <Alias n="12" Id="(Name=Lucene.Net.Index.IndexWriter.PrepareCommitInternal @1 @6 @2)" />
+    <Alias n="13" Id="(Name=Lucene.Net.Util.Packed.PackedWriter.Flush @1 @6 @2)" />
+    <Alias n="14" Uri="Assembly=file:///C:/Users/crh/.nuget/packages/lucene.net/4.8.0-beta00009/lib/netstandard2.1/Lucene.Net.dll" />
+    <Alias n="15" Id="Namespace=Lucene.Net.Index" />
+    <Alias n="16" Id="(@14 @15 Type=DocumentsWriterPerThread Member=(Name=SealFlushedSegment OverloadingParameters=[(@14 @15 Type=(Name=FlushedSegment ParentType=DocumentsWriterPerThread))]))" />
+    <Alias n="17" Id="Namespace=Lucene.Net.Util" />
+    <Alias n="18" Id="Type=IOUtils" />
+    <Alias n="19" Uri="Assembly=file:///C:/Program Files/dotnet/packs/Microsoft.NETCore.App.Ref/3.1.0/ref/netcoreapp3.1/System.Runtime.dll" />
+    <Alias n="20" Id="Namespace=System.Collections.Generic" />
+    <Alias n="21" Id="GenericParameterCount=1" />
+    <Alias n="22" Id="Namespace=System" />
+    <Alias n="23" Id="(@14 @17 @18 Member=(Name=Dispose OverloadingParameters=[(@19 @20 Type=(Name=IEnumerable @21 GenericArguments=[(@19 @22 Type=IDisposable)]))]))" />
+    <Alias n="24" Id="Type=IndexWriter" />
+    <Alias n="25" Id="(@19 @20 Type=(Name=IEnumerable @21 GenericArguments=[(@14 @15 Type=IIndexableField)]))" />
+    <Alias n="26" Id="(@14 @15 @24 Member=(Name=AddDocument OverloadingParameters=[@25]))" />
+    <Alias n="27" Id="(@14 @17 @18 Member=(Name=Dispose OverloadingParameters=[(@19 @22 Type=(Name=IDisposable ArrayRank=1 ParentType=IDisposable))]))" />
+    <Alias n="28" Uri="Assembly=$(8286f913-764c-4c68-b1d4-688da450f1cc.OutputPathUri)" />
+    <Alias n="29" Id="(@28 Namespace=SampleApp Type=Program Member=(Name=Main OverloadingParameters=[(@19 @22 Type=(Name=String ArrayRank=1 ParentType=String))]))" />
+    <Alias n="30" Id="Member=(Name=Dispose OverloadingParameters=[(@19 @22 Type=Boolean)])" />
+    <Alias n="31" Id="(@14 Namespace=Lucene.Net.Codecs.PerField Type=(Name=FieldsWriter ParentType=PerFieldPostingsFormat) @30)" />
+    <Alias n="32" Uri="Assembly=$(a43ffd30-2073-4b03-90ad-bf40bc7fef86.OutputPathUri)" />
+    <Alias n="33" Id="Namespace=Lucene.Net.Store.AzureStorageDirectory" />
+    <Alias n="34" Id="Type=AzureStorageIndexOutput" />
+    <Alias n="35" Id="(@32 @33 @34 @30)" />
+    <Alias n="36" Id="Namespace=Lucene.Net.Codecs" />
+    <Alias n="37" Id="(@14 @36 Type=BlockTreeTermsWriter @30)" />
+    <Alias n="38" Id="Namespace=Lucene.Net.Store" />
+    <Alias n="39" Id="(@14 @38 Type=CompoundFileDirectory @30)" />
+    <Alias n="40" Id="Namespace=Lucene.Net.Codecs.Compressing" />
+    <Alias n="41" Id="(@14 @40 Type=CompressingStoredFieldsWriter @30)" />
+    <Alias n="42" Id="Namespace=Lucene.Net.Codecs.Lucene41" />
+    <Alias n="43" Id="(@14 @42 Type=Lucene41PostingsWriter @30)" />
+    <Alias n="44" Id="(@14 Namespace=Lucene.Net.Codecs.Lucene42 Type=Lucene42NormsConsumer @30)" />
+    <Alias n="45" Id="Type=AzureStorageIndexInput" />
+    <Alias n="46" Id="(@32 @33 @45 Member=(Name=GetBlobLength OverloadingParameters=[(@19 @22 Type=Boolean)]))" />
+    <Alias n="47" Id="(@32 @33 @34 Member=(Name=WriteByte OverloadingParameters=[(@19 @22 Type=Byte)]))" />
+    <Alias n="48" Id="Type=Directory" />
+    <Alias n="49" Id="(@14 @38 @48)" />
+    <Alias n="50" Id="(@14 @15 Type=SegmentInfos Member=(Name=Read OverloadingParameters=[@49]))" />
+    <Alias n="51" Id="(@14 @17 @18 Member=(Name=ReThrow OverloadingParameters=[(@19 @22 Type=Exception)]))" />
+    <Alias n="52" Id="(@14 Namespace=Lucene.Net.Codecs.PerField Type=(Name=FieldsWriter ParentType=PerFieldPostingsFormat) Member=(Name=AddField OverloadingParameters=[(@14 @15 Type=FieldInfo)]))" />
+    <Alias n="53" Uri="Assembly=file:///C:/Users/crh/.nuget/packages/azure.core/1.2.2/lib/netstandard2.0/Azure.Core.dll" />
+    <Alias n="54" Id="Namespace=Azure.Core.Pipeline" />
+    <Alias n="55" Id="(@53 @54 Type=HttpClientTransport Member=(Name=Process OverloadingParameters=[(@53 Namespace=Azure.Core Type=HttpMessage)]))" />
+    <Alias n="56" Id="(@14 @15 Type=(Name=FindSegmentsFile ParentType=SegmentInfos) Member=(Name=Run OverloadingParameters=[(@14 @15 Type=IndexCommit)]))" />
+    <Alias n="57" Id="(@14 @36 Type=CodecUtil Member=(Name=WriteFooter OverloadingParameters=[(@14 @38 Type=IndexOutput)]))" />
+    <Alias n="58" Id="(@19 @22 Type=Int32)" />
+    <Alias n="59" Id="(@32 @33 @34 Member=(Name=EnsureSizeOrResize OverloadingParameters=[@58]))" />
+    <Alias n="60" Id="Type=DataOutput" />
+    <Alias n="61" Id="(@14 @38 @60 Member=(Name=WriteInt32 OverloadingParameters=[@58]))" />
+    <Alias n="62" Id="(@14 @38 @60 Member=(Name=WriteVInt32 OverloadingParameters=[@58]))" />
+    <Alias n="63" Id="(@19 @22 Type=Int64)" />
+    <Alias n="64" Id="(@14 @38 @60 Member=(Name=WriteInt64 OverloadingParameters=[@63]))" />
+    <Alias n="65" Id="Name=.ctor" />
+    <Alias n="66" Id="(@14 @15 Type=SegmentWriteState)" />
+    <Alias n="67" Id="OverloadingParameters=[@66]" />
+    <Alias n="68" Id="(@14 @42 Type=Lucene41PostingsWriter Member=(@65 @67))" />
+    <Alias n="69" Id="(@14 @42 Type=Lucene41PostingsFormat Member=(Name=FieldsConsumer @67))" />
+    <Alias n="70" Id="Name=Flush" />
+    <Alias n="71" Id="(@14 @15 Type=DocFieldProcessor Member=(@70 @67))" />
+    <Alias n="72" Id="(@14 @15 Type=StoredFieldsProcessor Member=(@70 @67))" />
+    <Alias n="73" Id="(@14 @15 Type=TwoStoredFieldsConsumers Member=(@70 @67))" />
+    <Alias n="74" Id="(@14 Namespace=Lucene.Net.Codecs.Lucene42 Type=Lucene42NormsFormat Member=(Name=NormsConsumer @67))" />
+    <Alias n="75" Id="Type=AzureStorageDirectory" />
+    <Alias n="76" Id="(@19 @22 Type=String)" />
+    <Alias n="77" Id="(@32 @33 @75 Member=(Name=MakeLock OverloadingParameters=[@76]))" />
+    <Alias n="78" Id="(@14 @38 @60 Member=(Name=WriteString OverloadingParameters=[@76]))" />
+    <Alias n="79" Id="Member=(Name=Process OverloadingParameters=[(@53 Namespace=Azure.Core Type=HttpMessage),(@19 @22 Type=(Name=ReadOnlyMemory @21 GenericArguments=[(@53 @54 Type=HttpPipelinePolicy)]))])" />
+    <Alias n="80" Id="(@53 @54 Type=HttpPipelineSynchronousPolicy @79)" />
+    <Alias n="81" Id="(@53 @54 Type=HttpPipelineTransportPolicy @79)" />
+    <Alias n="82" Id="(@53 @54 Type=LoggingPolicy @79)" />
+    <Alias n="83" Id="(@53 @54 Type=RequestActivityPolicy @79)" />
+    <Alias n="84" Id="(@53 @54 Type=ResponseBodyPolicy @79)" />
+    <Alias n="85" Id="(@53 @54 Type=RetryPolicy @79)" />
+    <Alias n="86" Id="(@53 @54 Type=HttpPipelinePolicy Member=(Name=ProcessNext OverloadingParameters=[(@53 Namespace=Azure.Core Type=HttpMessage),(@19 @22 Type=(Name=ReadOnlyMemory @21 GenericArguments=[(@53 @54 Type=HttpPipelinePolicy)]))]))" />
+    <Alias n="87" Id="(@14 @17 @18 Member=(Name=DisposeWhileHandlingException OverloadingParameters=[(@19 @22 Type=Exception),(@19 @22 Type=(Name=IDisposable ArrayRank=1 ParentType=IDisposable))]))" />
+    <Alias n="88" Id="(@14 @15 @24 Member=(Name=AddDocument OverloadingParameters=[@25,(@14 Namespace=Lucene.Net.Analysis Type=Analyzer)]))" />
+    <Alias n="89" Uri="Assembly=file:///C:/Users/crh/.nuget/packages/azure.storage.blobs/12.4.4/lib/netstandard2.0/Azure.Storage.Blobs.dll" />
+    <Alias n="90" Id="Namespace=Azure.Storage.Blobs.Models" />
+    <Alias n="91" Id="(@19 Namespace=System.Threading Type=CancellationToken)" />
+    <Alias n="92" Id="(@89 Namespace=Azure.Storage.Blobs.Specialized Type=BlobBaseClient Member=(Name=GetProperties OverloadingParameters=[(@89 @90 Type=BlobRequestConditions),@91]))" />
+    <Alias n="93" Id="(@53 @54 Type=HttpPipeline Member=(Name=Send OverloadingParameters=[(@53 Namespace=Azure.Core Type=HttpMessage),@91]))" />
+    <Alias n="94" Id="(@14 @15 @24 Member=(@65 OverloadingParameters=[@49,(@14 @15 Type=IndexWriterConfig)]))" />
+    <Alias n="95" Id="(@14 @38 @60 Member=(Name=WriteBytes OverloadingParameters=[(@19 @22 Type=(Name=Byte ArrayRank=1 ParentType=Byte)),@58]))" />
+    <Alias n="96" Id="(@14 @40 Type=CompressingStoredFieldsWriter Member=(Name=Finish OverloadingParameters=[(@14 @15 Type=FieldInfos),@58]))" />
+    <Alias n="97" Id="(@14 @38 @60 Member=(Name=CopyBytes OverloadingParameters=[(@14 @38 Type=DataInput),@63]))" />
+    <Alias n="98" Id="(@14 @15 Type=SegmentInfos Member=(Name=WriteSegmentsGen OverloadingParameters=[@49,@63]))" />
+    <Alias n="99" Id="(@14 @38 Type=IOContext)" />
+    <Alias n="100" Id="(@32 @33 @75 Member=(Name=CreateOutput OverloadingParameters=[@76,@99]))" />
+    <Alias n="101" Id="(@14 @38 Type=CompoundFileDirectory Member=(Name=CreateOutput OverloadingParameters=[@76,@99]))" />
+    <Alias n="102" Id="(@14 @38 Type=TrackingDirectoryWrapper Member=(Name=CreateOutput OverloadingParameters=[@76,@99]))" />
+    <Alias n="103" Id="(@14 @38 @48 Member=(Name=OpenChecksumInput OverloadingParameters=[@76,@99]))" />
+    <Alias n="104" Id="(@32 @33 @75 Member=(Name=OpenInput OverloadingParameters=[@76,@99]))" />
+    <Alias n="105" Id="Name=IDictionary" />
+    <Alias n="106" Id="GenericParameterCount=2" />
+    <Alias n="107" Id="(@14 @15 Type=DocInverter Member=(@70 OverloadingParameters=[(@19 @20 Type=(@105 @106 GenericArguments=[@76,(@14 @15 Type=DocFieldConsumerPerField)])),@66]))" />
+    <Alias n="108" Id="(@14 @15 Type=TermsHash Member=(@70 OverloadingParameters=[(@19 @20 Type=(@105 @106 GenericArguments=[@76,(@14 @15 Type=InvertedDocConsumerPerField)])),@66]))" />
+    <Alias n="109" Id="(@14 @15 Type=NormsConsumer Member=(@70 OverloadingParameters=[(@19 @20 Type=(@105 @106 GenericArguments=[@76,(@14 @15 Type=InvertedDocEndConsumerPerField)])),@66]))" />
+    <Alias n="110" Id="(@14 @15 Type=FreqProxTermsWriter Member=(@70 OverloadingParameters=[(@19 @20 Type=(@105 @106 GenericArguments=[@76,(@14 @15 Type=TermsHashConsumerPerField)])),@66]))" />
+    <Alias n="111" Id="(@14 @42 Type=Lucene41PostingsWriter Member=(@65 OverloadingParameters=[@66,(@19 @22 Type=Single)]))" />
+    <Alias n="112" Id="(@32 @33 @45 Member=(@65 OverloadingParameters=[(@32 @33 @75),@76]))" />
+    <Alias n="113" Id="(@14 @15 @24 Member=(Name=UpdateDocument OverloadingParameters=[(@14 @15 Type=Term),@25,(@14 Namespace=Lucene.Net.Analysis Type=Analyzer)]))" />
+    <Alias n="114" Id="(@89 Namespace=Azure.Storage.Blobs.Specialized Type=PageBlobClient Member=(Name=Resize OverloadingParameters=[@63,(@89 @90 Type=PageBlobRequestConditions),@91]))" />
+    <Alias n="115" Id="(@32 @33 @34 Member=(Name=FlushBuffer OverloadingParameters=[(@19 @22 Type=(Name=Byte ArrayRank=1 ParentType=Byte)),@58,@58]))" />
+    <Alias n="116" Id="(@32 @33 @34 Member=(Name=WriteBytes OverloadingParameters=[(@19 @22 Type=(Name=Byte ArrayRank=1 ParentType=Byte)),@58,@58]))" />
+    <Alias n="117" Id="(@14 @36 Type=CodecUtil Member=(Name=WriteHeader OverloadingParameters=[(@14 @38 @60),@76,@58]))" />
+    <Alias n="118" Id="(@14 @40 Type=CompressingStoredFieldsFormat Member=(Name=FieldsWriter OverloadingParameters=[@49,(@14 @15 Type=SegmentInfo),@99]))" />
+    <Alias n="119" Id="(@32 @33 @75 Member=(@65 OverloadingParameters=[@76,@76,@76]))" />
+    <Alias n="120" Id="(@14 @15 Type=DocumentsWriterPerThread Member=(Name=UpdateDocument OverloadingParameters=[@25,(@14 Namespace=Lucene.Net.Analysis Type=Analyzer),(@14 @15 Type=Term)]))" />
+    <Alias n="121" Id="(@89 Namespace=Azure.Storage.Blobs Type=BlobContainerClient Member=(Name=Create OverloadingParameters=[(@89 @90 Type=PublicAccessType),(@19 @20 Type=(@105 @106 GenericArguments=[@76,@76])),(@89 @90 Type=BlobContainerEncryptionScopeOptions),@91]))" />
+    <Alias n="122" Id="(@89 Namespace=Azure.Storage.Blobs.Specialized Type=BlobBaseClient Member=(Name=Download OverloadingParameters=[(@53 Namespace=Azure Type=HttpRange),(@89 @90 Type=BlobRequestConditions),(@19 @22 Type=Boolean),@91]))" />
+    <Alias n="123" Id="(@14 @40 Type=(Name=LZ4FastCompressor ParentType=CompressionMode) Member=(Name=Compress OverloadingParameters=[(@19 @22 Type=(Name=Byte ArrayRank=1 ParentType=Byte)),@58,@58,(@14 @38 @60)]))" />
+    <Alias n="124" Id="(@14 @36 Type=BlockTreeTermsWriter Member=(@65 OverloadingParameters=[@66,(@14 @36 Type=PostingsWriterBase),@58,@58]))" />
+    <Alias n="125" Id="(@14 Namespace=Lucene.Net.Codecs.Lucene46 Type=Lucene46SegmentInfoWriter Member=(Name=Write OverloadingParameters=[@49,(@14 @15 Type=SegmentInfo),(@14 @15 Type=FieldInfos),@99]))" />
+    <Alias n="126" Id="(@14 @38 @48 Member=(Name=Copy OverloadingParameters=[@49,@76,@76,@99]))" />
+    <Alias n="127" Id="(@14 @38 Type=TrackingDirectoryWrapper Member=(Name=Copy OverloadingParameters=[@49,@76,@76,@99]))" />
+    <Alias n="128" Id="(@14 Namespace=Lucene.Net.Codecs.Lucene46 Type=Lucene46FieldInfosWriter Member=(Name=Write OverloadingParameters=[@49,@76,@76,(@14 @15 Type=FieldInfos),@99]))" />
+    <Alias n="129" Id="(@14 @40 Type=CompressingStoredFieldsWriter Member=(@65 OverloadingParameters=[@49,(@14 @15 Type=SegmentInfo),@76,@99,@76,(@14 @40 Type=CompressionMode),@58]))" />
+    <Alias n="130" Id="(@53 @54 Type=TaskExtensions Member=(Name=EnsureCompleted @21 OverloadingParameters=[(@19 Namespace=System.Threading.Tasks Type=(Name=Task @21 GenericArguments=[(ParameterIdentifier=0)]))]))" />
+    <Alias n="131" Id="(@14 @15 @24 Member=Commit)" />
+    <Alias n="132" Id="Member=Dispose" />
+    <Alias n="133" Id="(@14 Namespace=Lucene.Net.Codecs.PerField Type=(Name=FieldsConsumerAndSuffix ParentType=PerFieldPostingsFormat) @132)" />
+    <Alias n="134" Id="(@14 @38 Type=CompoundFileWriter @132)" />
+    <Alias n="135" Id="(@14 @40 Type=CompressingStoredFieldsIndexWriter @132)" />
+    <Alias n="136" Id="(@14 @38 @48 @132)" />
+    <Alias n="137" Id="(@14 @36 Type=DocValuesConsumer @132)" />
+    <Alias n="138" Id="(@14 @36 Type=FieldsConsumer @132)" />
+    <Alias n="139" Id="(@14 @38 Type=IndexOutput @132)" />
+    <Alias n="140" Id="(@14 @36 Type=PostingsWriterBase @132)" />
+    <Alias n="141" Id="(@14 @36 Type=StoredFieldsWriter @132)" />
+    <Alias n="142" Id="(@32 @33 @75 Member=EnsureContainerExists)" />
+    <Alias n="143" Id="(@14 Namespace=Lucene.Net.Util.Packed Type=PackedWriter Member=Finish)" />
+    <Alias n="144" Id="(@14 @15 Type=DocFieldProcessor Member=FinishDocument)" />
+    <Alias n="145" Id="(@14 @15 Type=StoredFieldsProcessor Member=FinishDocument)" />
+    <Alias n="146" Id="(@14 @15 Type=TwoStoredFieldsConsumers Member=FinishDocument)" />
+    <Alias n="147" Id="(@32 @33 @34 Member=Flush)" />
+    <Alias n="148" Id="(@14 @15 Type=DocumentsWriterPerThread Member=Flush)" />
+    <Alias n="149" Id="(@32 @33 @45 Member=ReadByte)" />
+    <Alias n="150" Id="(@14 @38 Type=BufferedChecksumIndexInput Member=ReadByte)" />
+    <Alias n="151" Id="(@14 @38 Type=DataInput Member=ReadInt32)" />
+    <Alias n="152" Id="(@14 @15 Type=(Name=FindSegmentsFile ParentType=SegmentInfos) Member=Run)" />
+    <Alias n="153" Id="(Type=Lucene.Net.Store.IOContext Name=context)" />
+    <Alias n="154" Id="(Name=Lucene.Net.Index.StoredFieldsProcessor.InitFieldsWriter @1 @6 OverloadingParameters=[@153] @2)" />
+    <Alias n="155" Id="(Name=Lucene.Net.Index.SegmentInfos.FinishCommit @1 @6 OverloadingParameters=[(Type=&quot;Lucene.Net.Store.Directory {Lucene.Net.Store.AzureStorageDirectory.AzureStorageDirectory}&quot; Name=dir)] @2)" />
+    <Alias n="156" Id="(Name=Lucene.Net.Index.SegmentInfos.PrepareCommit @1 @6 OverloadingParameters=[(Type=&quot;Lucene.Net.Store.Directory {Lucene.Net.Store.AzureStorageDirectory.AzureStorageDirectory}&quot; Name=dir)] @2)" />
+    <Alias n="157" Id="(Name=Lucene.Net.Index.SegmentInfos.Write @1 @6 OverloadingParameters=[(Type=&quot;Lucene.Net.Store.Directory {Lucene.Net.Store.AzureStorageDirectory.AzureStorageDirectory}&quot; Name=directory)] @2)" />
+    <Alias n="158" Id="Type=bool" />
+    <Alias n="159" Id="(Name=Lucene.Net.Index.DocumentsWriter.DoFlush @1 @158 OverloadingParameters=[(Type=Lucene.Net.Index.DocumentsWriterPerThread Name=flushingDWPT)] @2)" />
+    <Alias n="160" Id="(Name=Lucene.Net.Codecs.Compressing.CompressingStoredFieldsIndexWriter.CompressingStoredFieldsIndexWriter @1 @6 OverloadingParameters=[(Type=&quot;Lucene.Net.Store.IndexOutput {Lucene.Net.Store.AzureStorageDirectory.AzureStorageIndexOutput}&quot; Name=indexOutput)] @2)" />
+    <Alias n="161" Id="(Name=Lucene.Net.Index.DocumentsWriter.FlushAllThreads @1 @158 OverloadingParameters=[(Type=Lucene.Net.Index.IndexWriter Name=indexWriter)] @2)" />
+    <Alias n="162" Id="(Name=System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification @4 @6 OverloadingParameters=[(Type=System.Threading.Tasks.Task Name=task)] @2)" />
+    <Alias n="163" Id="(Name=System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess @4 @6 OverloadingParameters=[(Type=System.Threading.Tasks.Task Name=task)] @2)" />
+    <Alias n="164" Id="(Name=System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification @4 @6 OverloadingParameters=[(Type=&quot;System.Threading.Tasks.Task {System.Runtime.CompilerServices.AsyncTaskMethodBuilder&lt;System.Threading.Tasks.VoidTaskResult&gt;.AsyncStateMachineBox&lt;Azure.Core.Pipeline.HttpClientTransport.&lt;ProcessAsync&gt;d__6&gt;}&quot; Name=task)] @2)" />
+    <Alias n="165" Id="(Name=Lucene.Net.Index.IndexWriter.StartCommit @1 @6 OverloadingParameters=[(Type=Lucene.Net.Index.SegmentInfos Name=toSync)] @2)" />
+    <Alias n="166" Id="Type=int" />
+    <Alias n="167" Id="(Name=System.Threading.Tasks.Task.InternalWaitCore @4 @158 OverloadingParameters=[(@166 Name=millisecondsTimeout),(Type=System.Threading.CancellationToken Name=cancellationToken)] @2)" />
+    <Alias n="168" Id="(Name=System.Threading.Tasks.Task.SpinThenBlockingWait @4 @158 OverloadingParameters=[(@166 Name=millisecondsTimeout),(Type=System.Threading.CancellationToken Name=cancellationToken)] @2)" />
+    <Alias n="169" Id="Type=string" />
+    <Alias n="170" Id="(Name=Lucene.Net.Store.CompoundFileWriter.CreateOutput @1 Type=Lucene.Net.Store.IndexOutput OverloadingParameters=[(@169 Name=name),@153] @2)" />
+    <Alias n="171" Id="(Name=Lucene.Net.Codecs.Compressing.CompressingStoredFieldsIndexWriter.Finish @1 @6 OverloadingParameters=[(@166 Name=numDocs),(Type=long Name=maxPointer)] @2)" />
+    <Alias n="172" Id="(Name=Lucene.Net.Codecs.Compressing.CompressingStoredFieldsWriter.SaveInt32s @1 @6 OverloadingParameters=[(Type=&quot;int[]&quot; Name=values),(@166 Name=length),(Type=&quot;Lucene.Net.Store.DataOutput {Lucene.Net.Store.AzureStorageDirectory.AzureStorageIndexOutput}&quot; Name=&quot;@out&quot;)] @2)" />
+    <Alias n="173" Uri="Assembly=Azure.Core.dll" />
+    <Alias n="174" Id="Type=System.Threading.Tasks.ValueTask" />
+    <Alias n="175" Id="(Name=Azure.Core.Pipeline.LoggingPolicy.ProcessAsync @173 @174 OverloadingParameters=[(Type=Azure.Core.HttpMessage Name=message),(Type=System.ReadOnlyMemory&lt;Azure.Core.Pipeline.HttpPipelinePolicy&gt; Name=pipeline),(@158 Name=async)] @2)" />
+    <Alias n="176" Id="(Name=Azure.Core.Pipeline.ResponseBodyPolicy.ProcessAsync @173 @174 OverloadingParameters=[(Type=Azure.Core.HttpMessage Name=message),(Type=System.ReadOnlyMemory&lt;Azure.Core.Pipeline.HttpPipelinePolicy&gt; Name=pipeline),(@158 Name=async)] @2)" />
+    <Alias n="177" Id="(Name=Azure.Core.Pipeline.RetryPolicy.ProcessAsync @173 @174 OverloadingParameters=[(Type=Azure.Core.HttpMessage Name=message),(Type=System.ReadOnlyMemory&lt;Azure.Core.Pipeline.HttpPipelinePolicy&gt; Name=pipeline),(@158 Name=async)] @2)" />
+    <Alias n="178" Id="(Name=Lucene.Net.Index.DocumentsWriter.UpdateDocument @1 @158 OverloadingParameters=[(Type=&quot;System.Collections.Generic.IEnumerable&lt;Lucene.Net.Index.IIndexableField&gt; {Lucene.Net.Documents.Document}&quot; Name=doc),(Type=&quot;Lucene.Net.Analysis.Analyzer {Lucene.Net.Analysis.Standard.StandardAnalyzer}&quot; Name=analyzer),(Type=Lucene.Net.Index.Term Name=delTerm)] @2)" />
+    <Alias n="179" Id="(Name=Azure.Core.Pipeline.RequestActivityPolicy.ProcessAsync @173 @174 OverloadingParameters=[(Type=Azure.Core.HttpMessage Name=message),(Type=System.ReadOnlyMemory&lt;Azure.Core.Pipeline.HttpPipelinePolicy&gt; Name=pipeline),(@158 Name=isAsync)] @2)" />
+    <Alias n="180" Id="(Name=Azure.Core.Pipeline.RequestActivityPolicy.ProcessNextAsync @173 @174 OverloadingParameters=[(Type=Azure.Core.HttpMessage Name=message),(Type=System.ReadOnlyMemory&lt;Azure.Core.Pipeline.HttpPipelinePolicy&gt; Name=pipeline),(@158 Name=isAsync)] @2)" />
+    <Alias n="181" Id="(Name=Lucene.Net.Index.FreqProxTermsWriterPerField.Flush @1 @6 OverloadingParameters=[(@169 Name=fieldName),(Type=Lucene.Net.Codecs.FieldsConsumer Name=consumer),(Type=Lucene.Net.Index.SegmentWriteState Name=state)] @2)" />
+    <Alias n="182" Uri="Assembly=Azure.Storage.Blobs.dll" />
+    <Alias n="183" Id="(Name=Azure.Storage.Blobs.Specialized.PageBlobClient.ResizeInternal @182 Type=System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Storage.Blobs.Models.PageBlobInfo&gt;&gt; OverloadingParameters=[(Type=long Name=size),(Type=Azure.Storage.Blobs.Models.PageBlobRequestConditions Name=conditions),(@158 Name=async),(Type=System.Threading.CancellationToken Name=cancellationToken)] @2)" />
+    <Alias n="184" Id="(Name=Lucene.Net.Codecs.Compressing.CompressingStoredFieldsWriter.WriteHeader @1 @6 OverloadingParameters=[(@166 Name=docBase),(@166 Name=numBufferedDocs),(Type=&quot;int[]&quot; Name=numStoredFields),(Type=&quot;int[]&quot; Name=lengths)] @2)" />
+    <Alias n="185" Id="(Name=Lucene.Net.Codecs.Compressing.LZ4.EncodeLiterals @1 @6 OverloadingParameters=[(Type=&quot;byte[]&quot; Name=bytes),(@166 Name=token),(@166 Name=anchor),(@166 Name=literalLen),(Type=&quot;Lucene.Net.Store.DataOutput {Lucene.Net.Store.AzureStorageDirectory.AzureStorageIndexOutput}&quot; Name=&quot;@out&quot;)] @2)" />
+    <Alias n="186" Id="(Name=Lucene.Net.Index.IndexWriter.CreateCompoundFile @1 Type=System.Collections.Generic.ICollection&lt;string&gt; OverloadingParameters=[(Type=Lucene.Net.Util.InfoStream Name=infoStream),(Type=&quot;Lucene.Net.Store.Directory {Lucene.Net.Store.TrackingDirectoryWrapper}&quot; Name=directory),(Type=Lucene.Net.Index.CheckAbort Name=checkAbort),(Type=Lucene.Net.Index.SegmentInfo Name=info),@153] @2)" />
+    <Alias n="187" Id="(Name=Lucene.Net.Index.IndexWriter.CreateCompoundFile @1 Type=System.Collections.Generic.ICollection&lt;string&gt; OverloadingParameters=[(Type=Lucene.Net.Util.InfoStream Name=infoStream),(Type=&quot;Lucene.Net.Store.Directory {Lucene.Net.Store.TrackingDirectoryWrapper}&quot; Name=directory),(Type=&quot;Lucene.Net.Index.CheckAbort {Lucene.Net.Index.CheckAbort.CheckAbortAnonymousInnerClassHelper}&quot; Name=checkAbort),(Type=Lucene.Net.Index.SegmentInfo Name=info),@153] @2)" />
+    <Alias n="188" Id="(Name=Lucene.Net.Codecs.Lucene42.Lucene42NormsConsumer.Lucene42NormsConsumer @1 @6 OverloadingParameters=[(Type=Lucene.Net.Index.SegmentWriteState Name=state),(@169 Name=dataCodec),(@169 Name=dataExtension),(@169 Name=metaCodec),(@169 Name=metaExtension),(Type=float Name=acceptableOverheadRatio)] @2)" />
+    <Alias n="189" Id="(Name=Azure.Storage.Blobs.BlobRestClient.PageBlob.ResizeAsync @182 Type=System.Threading.Tasks.ValueTask&lt;Azure.Response&lt;Azure.Storage.Blobs.Models.PageBlobInfo&gt;&gt; OverloadingParameters=[(Type=Azure.Core.Pipeline.ClientDiagnostics Name=clientDiagnostics),(Type=Azure.Core.Pipeline.HttpPipeline Name=pipeline),(Type=System.Uri Name=resourceUri),(Type=long Name=blobContentLength),(@169 Name=version),(Type=int? Name=timeout),(@169 Name=leaseId),(@169 Name=encryptionKey),(@169 Name=encryptionKeySha256),(Type=Azure.Storage.Blobs.Models.EncryptionAlgorithmType? Name=encryptionAlgorithm),(@169 Name=encryptionScope),(Type=System.DateTimeOffset? Name=ifModifiedSince),(Type=System.DateTimeOffset? Name=ifUnmodifiedSince),(Type=Azure.ETag? Name=ifMatch),(Type=Azure.ETag? Name=ifNoneMatch),(@169 Name=requestId),(@158 Name=async),(@169 Name=operationName),(Type=System.Threading.CancellationToken Name=cancellationToken)] @2)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Call Stack (no source)" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('CodeSchema_SourceLocation')" />
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FF0072C6" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Call Stack (source)" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External Call Stack" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FF717171" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Test Project" ValueLabel="Test Project">
+      <Condition Expression="HasCategory('CodeMap_TestProject')" />
+      <Setter Property="Icon" Value="CodeMap_TestProject" />
+      <Setter Property="Background" Value="#FF307A69" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Web Project" ValueLabel="Web Project">
+      <Condition Expression="HasCategory('CodeMap_WebProject')" />
+      <Setter Property="Icon" Value="CodeMap_WebProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Windows Store Project" ValueLabel="Windows Store Project">
+      <Condition Expression="HasCategory('CodeMap_WindowsStoreProject')" />
+      <Setter Property="Icon" Value="CodeMap_WindowsStoreProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Phone Project" ValueLabel="Phone Project">
+      <Condition Expression="HasCategory('CodeMap_PhoneProject')" />
+      <Setter Property="Icon" Value="CodeMap_PhoneProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Portable Library" ValueLabel="Portable Library">
+      <Condition Expression="HasCategory('CodeMap_PortableLibraryProject')" />
+      <Setter Property="Icon" Value="CodeMap_PortableLibraryProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WPF Project" ValueLabel="WPF Project">
+      <Condition Expression="HasCategory('CodeMap_WpfProject')" />
+      <Setter Property="Icon" Value="CodeMap_WpfProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="VSIX Project" ValueLabel="VSIX Project">
+      <Condition Expression="HasCategory('CodeMap_VsixProject')" />
+      <Setter Property="Icon" Value="CodeMap_VsixProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Modeling Project" ValueLabel="Modeling Project">
+      <Condition Expression="HasCategory('CodeMap_ModelingProject')" />
+      <Setter Property="Icon" Value="CodeMap_ModelingProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF0E70C0" />
+      <Setter Property="Stroke" Value="#FF0E70C0" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="Has category">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Calls" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Function Pointer" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Write" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldWrite')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+      <Setter Property="IsHidden" Value="false" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Return" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_ReturnTypeLink')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="References" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('References')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses Attribute" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_AttributeUse')" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Solution Folder" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeMap_SolutionFolder')" />
+      <Setter Property="Background" Value="#FFDEBA83" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Project Reference" ValueLabel="Project Reference">
+      <Condition Expression="HasCategory('CodeMap_ProjectReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="External Reference" ValueLabel="External Reference">
+      <Condition Expression="HasCategory('CodeMap_ExternalReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="8286f913-764c-4c68-b1d4-688da450f1cc.OutputPath" Value="C:\Users\crh\source\repos\Lucene.Net.Store.AzureStorageDirectory\SampleApp\bin\Debug\netcoreapp3.1\SampleApp.dll" />
+    <Path Id="8286f913-764c-4c68-b1d4-688da450f1cc.OutputPathUri" Value="file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/SampleApp/bin/Debug/netcoreapp3.1/SampleApp.dll" />
+    <Path Id="a43ffd30-2073-4b03-90ad-bf40bc7fef86.OutputPath" Value="C:\Users\crh\source\repos\Lucene.Net.Store.AzureStorageDirectory\Lucene.Net.Store.AzureStorageDirectory\bin\Debug\netcoreapp3.1\Lucene.Net.Store.AzureStorageDirectory.dll" />
+    <Path Id="a43ffd30-2073-4b03-90ad-bf40bc7fef86.OutputPathUri" Value="file:///C:/Users/crh/source/repos/Lucene.Net.Store.AzureStorageDirectory/Lucene.Net.Store.AzureStorageDirectory/bin/Debug/netcoreapp3.1/Lucene.Net.Store.AzureStorageDirectory.dll" />
+  </Paths>
+</DirectedGraph>
